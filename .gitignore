@@ -1,0 +1,121 @@
+# --- General Dependencies & Logs ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# --- React / Frontend Build Artifacts ---
+build/
+dist/
+.next/
+.nuxt/
+.output/
+out/
+coverage/
+.svelte-kit/
+
+# --- Environment Variables (VERY IMPORTANT) ---
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+
+# --- Temporary / Cache Files ---
+.DS_Store
+*.log
+.eslintcache
+.stylelintcache
+.cache/
+.npm/
+.yarn/
+.pnp.*
+
+# --- Python Byte-compiled / optimized / DLL files ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Python C extensions ---
+*.so
+
+# --- Python Distribution / packaging ---
+.Python
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANUAL
+
+# --- Python Environments ---
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# --- Python Installer logs ---
+pip-log.txt
+pip-delete-this-directory.txt
+
+# --- Python Unit test / coverage reports ---
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# --- Django Stuff ---
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# --- Flask Stuff ---
+instance/
+.webassets-cache
+
+# --- Jupyter Notebook ---
+.ipynb_checkpoints
+
+# --- Editor directories and files ---
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# --- OS-generated files ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# --- Sensitive information (duplicate of .env section for clarity) ---
+credentials.json
+secrets.yaml
